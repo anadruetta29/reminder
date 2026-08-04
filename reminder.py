@@ -16,7 +16,7 @@ def show_alert():
 
 def reminders():
     while True:
-        time.sleep(600)
+        time.sleep(900)
         show_alert()
 
 
