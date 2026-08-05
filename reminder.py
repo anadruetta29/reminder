@@ -9,14 +9,14 @@ def show_alert():
     root.withdraw()
 
     answer = messagebox.showwarning(
-        "¡Bianca recordá guardar tus cambios!"
+        "¡Bianca recordá sincronizar!"
     )
     root.destroy()
 
 
 def reminders():
     while True:
-        time.sleep(900)
+        time.sleep(1200)
         show_alert()
 
 
